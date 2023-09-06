@@ -9,3 +9,17 @@ body{
 .heading{
     text-align: center ;
 }
+
+h1{
+    color: #20467a;
+
+    background-color:#e8d263 ;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
