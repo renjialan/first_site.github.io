@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 body{
     background-color: #e1c4ab;
 }
@@ -8,18 +11,37 @@ body{
 
 .heading{
     text-align: center ;
+    font-size: 2.6rem;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    /* color: var(--text-color); */
 }
+
+.subheading{
+    text-align: center ;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Dosis", sans-serif;
+    /* color: var(--text-color); */
+}
+
 
 h1{
     color: #20467a;
-
-    background-color:#e8d263 ;
+    background-color:#fbb374 ;
+}
+h2{
 
 }
+
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  img {
+    border: 5px solid #c4b087;
   }
