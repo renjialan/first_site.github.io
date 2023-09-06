@@ -6,6 +6,7 @@ body{
 }
 .MainImage{
     position: relative;
+    border-radius: 15%;
 
 }
 
@@ -34,12 +35,31 @@ h2{
 
 }
 
+.Paragraph{
+    font-size: 1rem;
+    font-family: "Dosis", sans-serif;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
-.center {
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    font-family: "Dosis", sans-serif;
+}
+
+.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 200px;
+    border-radius: 10%;
   }
 
   img {
