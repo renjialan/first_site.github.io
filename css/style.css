@@ -3,6 +3,28 @@
 
 body{
     background-color: #e1c4ab;
+
+.topnav {
+   
+  background-color: #e8a561;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  
+  
+  margin-bottom: 5px;
+  font-family: "Dosis", sans-serif;
+  overflow: hidden;
+  
+}
+
+.topnav a:hover {
+    background-color: #e8a561;
+    color: rgb(255, 255, 255);
+    
+  }
+
 }
 .MainImage{
     position: relative;
@@ -45,13 +67,19 @@ h2{
 
 }
 
-ul li {
+.likes {
+    
     display: inline-block;
     margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 1rem;
     font-family: "Dosis", sans-serif;
+}
+
+
+li{
+    display: inline;
 }
 
 .image {
